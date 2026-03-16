@@ -1,0 +1,63 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background:#111;
+    color: white;
+}
+
+.header{
+    background:#000;
+    padding:15px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo img{
+    height: 60px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin:0 15px;
+    font: size 18px;
+}
+
+.menu a:hover{
+    color:#ff0000;
+}
+
+.hero{
+    text-align: center;
+    padding:120px 20px;
+    background:linear-gradient(rgba(0,0,0,.6),
+    rgba(0,0,0,.9)), url("radio.jpg");
+    background-size: cover;
+}
+
+.hero h1{
+    font: size 50px;;
+}
+
+.btn:hover{
+    background: #cc0000;
+}
+
+.galeria{
+    text-align: center;
+    padding: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.galeria img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+}
