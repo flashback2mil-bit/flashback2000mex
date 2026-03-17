@@ -26,7 +26,7 @@ body{
     color: white;
     text-decoration: none;
     margin:0 15px;
-    font: size 18px;
+    font-size: 18px;
 }
 
 .menu a:hover{
@@ -42,7 +42,7 @@ body{
 }
 
 .hero h1{
-    font: size 50px;;
+    font-size: 50px;
 }
 
 .btn:hover{
@@ -51,10 +51,9 @@ body{
 
 .galeria{
     text-align: center;
-    padding: 300px;
-    margin: 20px;
-    border-radius: 10px;
+    padding: 60px;
 }
+
 .galeria img{
     width: 300px;
     height: auto;
@@ -134,7 +133,6 @@ text-decoration: none;
 box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-
 .redes a{
 display:inline-block;
 margin:10px;
@@ -145,11 +143,11 @@ border-radius:20px;
 text-decoration:none;
 }
 
-
 .programacion{
 padding:60px;
 text-align:center;
 background:#f4f4f4;
+color:black;
 }
 
 .programa{
@@ -158,4 +156,14 @@ padding:20px;
 background:white;
 border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
+color:black;
 }
+ 
+
+
+
+
+
+
+
+
