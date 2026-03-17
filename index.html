@@ -23,9 +23,9 @@
 
 <nav class="menu">
 <a href="#">Inicio</a>
-<a href="#">Escuchar</a>
-<a href="#">Programación</a>
-<a href="#">Contacto</a>
+<a href="#player">Escuchar</a>
+<a href="#programacion">Programación</a>
+<a href="#contacto">Contacto</a>
 </nav>
 
 </div>
@@ -42,7 +42,7 @@
 
 <p>La música que no pasa de moda y marca tu historia</p>
 
-<a href="#" class="btn">Escuchar en vivo</a>
+<a href="#player" class="btn">Escuchar en vivo</a>
 
 </section>
 
@@ -59,8 +59,7 @@
 <h3>FlashBack DJ</h3>
 
 <p>
-La voz oficial de FlashBack2000Mex. Reviviendo los mejores éxitos de los 2000
-con la energía que marcó toda una generación.
+La voz oficial de FlashBack2000Mex. Reviviendo los mejores éxitos de los 2000 con la energía que marcó toda una generación.
 </p>
 
 </div>
@@ -69,7 +68,7 @@ con la energía que marcó toda una generación.
 
 </section>
 
-<section class="programacion">
+<section id="programacion" class="programacion">
 
 <h2>Programación</h2>
 
@@ -90,7 +89,7 @@ con la energía que marcó toda una generación.
 
 </section>
 
-<section class="contacto">
+<section id="contacto" class="contacto">
 
 <h2>Contacto</h2>
 
@@ -102,9 +101,7 @@ con la energía que marcó toda una generación.
 <div class="redes">
 
 <a href="https://facebook.com/flashback2000mex" target="_blank">📘 Facebook</a>
-
 <a href="https://instagram.com/flashback2000mex" target="_blank">📷 Instagram</a>
-
 <a href="https://tiktok.com/@flashback2000mex" target="_blank">🎵 TikTok</a>
 
 </div>
@@ -112,18 +109,15 @@ con la energía que marcó toda una generación.
 </section>
 
 <!-- REPRODUCTOR DE RADIO -->
-<div class="radio-player">
 
-<iframe 
-src="https://player.caster.fm/?station=a105025a-317f-456d-acbe-2159b553ee3b&theme=dark"
-width="100%" 
-height="110" 
-frameborder="0" 
-scrolling="no">
-</iframe>
+<div id="player" class="radio-player">
+
+<audio controls style="width:100%;">
+<source src="https://stream.caster.fm/a105025a-317f-456d-acbe-2159b553ee3b" type="audio/mpeg">
+Tu navegador no soporta el reproductor de audio.
+</audio>
 
 </div>
-
 
 <!-- BOTON WHATSAPP -->
 
@@ -133,5 +127,3 @@ scrolling="no">
 
 </body>
 </html>
-
-  
