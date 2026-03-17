@@ -158,12 +158,23 @@ border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
 color:black;
 }
- 
-
-
-
-
-
-
-
+ body{
+padding-bottom:120px;
+}
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 30px;
+background:#e81e4d;
+color:white;
+text-decoration:none;
+border-radius:25px;
+font-weight:bold;
+transition:0.3s;
+}
+.radio-player audio{
+max-width:1000px;
+margin:auto;
+display:block;
+}
 
