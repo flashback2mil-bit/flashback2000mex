@@ -61,16 +61,6 @@ body{
     margin: 20px;
 }
 
-.radio-player{
-position: fixed;
-bottom: 0;
-left: 0;
-width: 100%;
-background: #000;
-padding: 10px;
-z-index: 999;
-box-shadow: 0 -2px 10px rgba(0,0,0,0.5);
-}
 
 .locutor{
 padding: 60px;
@@ -172,11 +162,7 @@ border-radius:25px;
 font-weight:bold;
 transition:0.3s;
 }
-.radio-player audio{
-max-width:1000px;
-margin:auto;
-display:block;
-}
+
 
 .whatsapp-btn{
 position: fixed;
